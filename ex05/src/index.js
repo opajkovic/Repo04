@@ -1,7 +1,9 @@
 function main(numOne, numTwo) {
   
     var product= parseFloat(numOne) * parseFloat(numTwo);
-    return parseFloat(product);
+    parseFloat(product);
+    
+    return product;
   }
   
   console.log(main(2.5,2.0));
